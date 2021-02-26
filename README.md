@@ -3,6 +3,8 @@
 <kbd>
   <img src="paper_video.gif">
 </kbd>
+[Full video link](https://alumniubcca-my.sharepoint.com/:v:/g/personal/kuangen_zhang_alumni_ubc_ca/Ea7bCNie6P5Pp-dE9JQdGzgBA2Z-H3_YljkIWmDvSS6Rng)
+
 
 This is the implementation of Foot Placement Prediction for Assistive Walking by Fusing Sequential 3D Gaze and Environmental Context in Python.
 
