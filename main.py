@@ -23,26 +23,25 @@ def main_analysis(val_dir='data/3_walking_small_Chen_12_17', analysis_step = 0, 
     elif 2 == analysis_step:
         ''' Calculate the camera pose, the valide time should be between the first heel strike and the last heel strike.
         '''
-        for c in range(exp_num):
+        for c in [5]:
             utils.calc_camera_pose(val_dir, test_idx=c)
             utils.fuse_multi_clouds(val_dir, test_idx=c, remove_ground=False)
             print('test idx: ', c)
     elif 3 == analysis_step:
         ''' Remove ground and segmented the point cloud. '''
-        for c in [0]:
-        # for c in range(exp_num):
+        for c in [5]:
             utils.fuse_multi_clouds(val_dir, test_idx=c, remove_ground=True)
     elif 4 == analysis_step:
         ''' Synchronize the gaze and plot gaze on the orbbec rgb images'''
-        for c in range(exp_num):
+        for c in [5]:
             utils.synchronize_gaze_2d(val_dir, test_idx=c, save_video=True)
     elif 5 == analysis_step:
         ''' Analyze the gaze and compare with the random foot placements'''
-        for c in range(exp_num):
+        for c in [5]:
             utils.analyze_gaze_and_footplacement(val_dir, test_idx=c, render_every_gait=True)
     elif 6 == analysis_step:
         ''' Analyze the gaze and compare with the labeled foot placements'''
-        for c in range(exp_num):
+        for c in [5]:
             utils.analyze_gaze_and_footplacement(val_dir, test_idx=c, render_every_gait=True, change_phase = True)
     elif 7 == analysis_step:
         '''Visualize classification and distance error of gaze'''
