@@ -13,7 +13,7 @@ This is the implementation of Foot Placement Prediction for Assistive Walking by
 2. Uncompress the data.zip to FPP/data folder.
 3. Run code:
 ```
-python main_MCD.py
+python main.py
 ```
 
 
