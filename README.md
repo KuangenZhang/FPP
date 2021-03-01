@@ -9,7 +9,7 @@
 This is the implementation of Foot Placement Prediction for Assistive Walking by Fusing Sequential 3D Gaze and Environmental Context in Python.
 
 ### Test
-1. Download the data from the dataset link: [data.zip](google.com)
+1. Download the data from the dataset link: [data.zip](https://alumniubcca-my.sharepoint.com/:u:/g/personal/kuangen_zhang_alumni_ubc_ca/EVEUrVJqvfJEuzZYpTTsF-cBH-G8dxGUoFdiyzEMw_Ni8g?e=Gqsu7U)
 2. Uncompress the data.zip to FPP/data folder.
 3. Run code:
 ```
